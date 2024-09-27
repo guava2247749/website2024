@@ -71,3 +71,10 @@ img 圖片
     舉例
         <img alt="Read Lantern logo" src="images/rl_logo.png"/>
         images/rl_logo.png 為指定資料夾的rl_logo圖片
+
+網站建立步驟(個人見解)
+    1.先建立html:5，並在head裡設定好title、link、keyword等。
+    2.觀察與構思網頁的分區，並從頭到尾從上到下分隔開來。
+      如果有左右分隔的區塊，以在某區塊再次分割的方式做出。
+    3.幫分隔得區塊取名，header、div、article、footer沒有差距。
+      以自己方便修改、好懂為主，並在後面設立ID以更好辨認
