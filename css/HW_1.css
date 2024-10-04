@@ -1,19 +1,113 @@
 body{
      background: #000;
-} 
-
-.white{
+ }
+ .white{
      color:#fff;
-} 
-
-#main{
+ }
+ #main{
      width: 680px;
      background: #fff;
      margin: 0 auto;
-} 
-
-header{
+ }
+ header{
+     height: 120px;
      background: url("../images/tokyo.jpg");
      border: solid #fff 3px;
-     padding: 5px 0px 10px 0px;
+     padding: 5px 0px 10px 0px; 
+ }
+
+ #header h1{
+     margin-top: 0px;
+     margin-bottom: 10px;
+     padding-left: 5px;
+     font-size: xx-large
+ }
+ 
+ #header h2{
+     margin: 0px;
+     padding-left: 5px;
+     font-size: large;
+ }
+
+ #menu{
+     width: 674px;
+     background: linear-gradient(#333,#000);
+     margin-left: 3px;
+     float: left;
+     padding: 0px;
+ }
+ #menu ul{
+     list-style: none;
+    padding: 0px;
+    margin-left: 100px;
+    margin-top: 0px;
+ }
+ #menu ul li{
+     display: inline;
+     
+ }
+ #menu ul li a{
+     color:#fff;
+     text-decoration: none;
+     padding-top: 0px;
+     height: 30px;
+     width: 80px;
+     float: left;
+     display: block;
+     text-align: center;padding-top:5px;
+ }
+ 
+ #menu a:hover{
+     color: #f00;
+     background: linear-gradient(#000,#666);
+ }
+ 
+ #content{
+     width: 680px;
+     background-color: #fff;
+ }
+ 
+ #left{
+     float: left;
+     width: 200px;
+     padding-left: 10px;
+ }
+ 
+ #left h2{
+     color: #fff;
+     display: flex;
+     font-size: medium;
+     align-items: center;
+     height: 30px;
+     border: 2px solid rgba(110, 110, 110, 0.274);
+     border-radius: 5px;
+     background: linear-gradient(#ddd,#888,#333,#000);
+ }
+
+ #left h4{
+     margin-top: 0px;
+     margin-bottom: 0px;
+
+ }
+
+ #left p{
+     margin-top: 0px;
+ }
+
+ #right{
+     float:right;
+     width: 450px;
+ }
+ 
+#right h2{
+     font-size: xx-large;
 }
+
+ footer{
+     clear:both;
+     width:680px;
+     background: linear-gradient(#666,#000);
+     color:#fff;
+     text-align: center;
+     padding-top:5px;
+ }
