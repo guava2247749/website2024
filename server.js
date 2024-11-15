@@ -6,6 +6,9 @@ var server = express();
 //web root
 server.use(express.static(__dirname+"/AgencyProject"));
 
+var DB =require("nedb-promises");
+var Profolio = DB.creat(__dirname+"/profolio.db");
+
 server.get("/services", (req,res)=>{
     //DB find
     var services=[
