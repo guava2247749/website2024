@@ -2,6 +2,7 @@
 //install web server package: express >npm install express
 var express = require("express");
 var server = express();
+var bodyParser = require("body-parser");
 
 //web root
 server.use(express.static(__dirname+"/AgencyProject"));
@@ -41,6 +42,10 @@ server.get("/profolio", (req,res)=>{
 
 })
 
+server.get("/contact", (req,res)=>{
+
+
+})
 
 server.listen(80, ()=>{
     console.log("Server is running at port 80.");
