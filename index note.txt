@@ -28,6 +28,25 @@ HTML元素
         <br>：這是一個空元素，並且是一個沒有結束標籤的空元素，用來換行用。
             <hr>：標籤定義 HTML 頁面中的主題中斷，並且通常顯示為水平規則。用於分隔 HTML 頁面中的內容
             <pre>：預先格式化文字。元素內的文字<pre>以固定寬度字體（通常是 Courier）顯示，並保留空格和換行符。
+    <div>、<nav>
+        <div>：區塊元素，用作其他 HTML 元素的容器。它佔用所有可用寬度，並且前後帶有換行符。
+            居中對齊 <div>：如果您的<div>元素不是 100% 寬，並且想要將其居中對齊，請將 CSS margin屬性設為 auto。
+            並排對齊 <div>：CSSfloat屬性原本不是用於並排 <div>對齊元素，但多年來一直用於此目的。
+                <style>
+                .mycontainer {
+                width:100%;
+                overflow:auto;
+                }
+                .mycontainer div {
+                width:33%;
+                float:left;
+                }
+                </style>
+            更多內容：https://www.w3schools.com/html/html_div.asp
+        <nav>：定義一組導航鏈接。請注意，並非文件的所有連結都應該位於元素內<nav>。此 <nav>元素僅適用於導航連結的主要區塊。瀏覽器（例如​​殘障使用者的螢幕閱讀器）可以使用此元素來決定是否省略此內容的初始呈現。
+    
+    更多語意：https://www.w3schools.com/html/html5_semantic_elements.asp
+    區塊和內聯元素：https://www.w3schools.com/html/html_blocks.asp
 HTML屬性
     <href><src><width><height><alt><style><lang><title>
     超連結：
